@@ -73,7 +73,7 @@ main {
 
 /* 3. Hero section */
 #hero {
-    background-image: url(/images/img-mission-background.jpg);
+    background-image: url(./images/img-mission-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     height: 700px;
