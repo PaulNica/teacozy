@@ -1,0 +1,196 @@
+/* 1. General styles & Typography */
+/* 2. Header and main navigation */
+/* 3. Hero section */
+/* 4. Featured section */
+/* 5. Locations section */
+/* 6. Contact section */
+
+
+/* 1. General styles */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    color: seashell;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+/* 2. Header and main navigation */
+header {
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    margin-top: 70px;
+}
+
+.nav {
+    height: 69px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+}
+
+.menu {
+    display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+    padding-right: 10px;
+}
+
+.menu li {
+    display: inline;
+    padding: 0 15px;
+    font-size: 20px;
+}
+
+.menu li a {
+    color: seashell;
+    text-decoration: underline;
+}
+
+.menu li a:hover {
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+/* 3. Hero section */
+#hero {
+    background-image: url(./images/img-mission-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+#hero-img {
+    overflow: hidden;
+}
+
+.mission {
+    background-color: black;
+    width: 1200px;
+    position: absolute;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.mission h2,
+.mission h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* 4. Featured section */
+#featured {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+#featured h2 {
+    margin-bottom: 0px;
+}
+
+#featured h4 {
+    margin-bottom: 30px;
+}
+
+.product {
+    margin-top: 10px;
+}
+
+#featured-tea {
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea {
+    margin-right: 32px;
+    margin-bottom: 5px;
+}
+
+/* 5. Locations section */
+#locations {
+    background-image: url(./images/img-locations-background.jpg);
+    background-position: center top 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#locations-container {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.shop {
+    background-color: black;
+    width: 300px;
+    margin: 15px 20px;
+}
+
+.shop h3 {
+    margin: 20px auto;
+}
+
+.shop p {
+    margin: 35px auto;
+    line-height: 55px;
+}
+
+/* 6. Contact section */
+#contact {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contact h2 {
+    margin-top: 20px;
+}
+
+#contact h5 {
+    margin-top: 35px;
+    line-height: 50px;
+}
+
+footer h5 {
+    margin-top: 50px;
+    text-align: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
